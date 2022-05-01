@@ -7,6 +7,7 @@ import (
 	"time"
 )
 
+// see https://zenn.dev/hsaki/books/golang-concurrency/viewer/goelement
 func meeting() {
 	fmt.Printf("start meeting...\n")
 
