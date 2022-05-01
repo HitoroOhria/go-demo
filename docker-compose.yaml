@@ -1,0 +1,18 @@
+# See https://docs.docker.com/compose/compose-file/compose-file-v3/
+version: "3.9"
+
+services:
+  basic:
+    container_name: basic 
+    image: golang:1.18
+    volumes:
+      - ./basic:/go/src
+    working_dir: /go/src
+    tty: true
+  '1.18':
+    container_name: go1.18
+    image: golang:1.18
+    volumes:
+      - ./1.18:/go/src
+    working_dir: /go/src
+    tty: true
