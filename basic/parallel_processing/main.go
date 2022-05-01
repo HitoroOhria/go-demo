@@ -14,5 +14,5 @@ func main() {
 	fmt.Printf("main...\n")
 
 	meeting()
-	channel()
+	basicChannel()
 }

@@ -6,8 +6,8 @@ import (
 	"time"
 )
 
-func channel() {
-	fmt.Printf("start channel...\n")
+func basicChannel() {
+	fmt.Printf("start basicChannel...\n")
 
 	basic()
 	nonBufferedChannel()
