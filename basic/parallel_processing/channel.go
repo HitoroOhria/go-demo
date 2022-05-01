@@ -10,7 +10,7 @@ func channel() {
 	fmt.Printf("start channel...\n")
 
 	basic()
-	bufferedChannel()
+	nonBufferedChannel()
 	referenceValue()
 	conflictValue()
 }
@@ -35,8 +35,8 @@ func basic() {
 	fmt.Printf("getting number from channel is %d\n", num)
 }
 
-func bufferedChannel() {
-	fmt.Printf("start bufferedChannel...\n")
+func nonBufferedChannel() {
+	fmt.Printf("start nonBufferedChannel...\n")
 
 	c := make(chan int)
 
